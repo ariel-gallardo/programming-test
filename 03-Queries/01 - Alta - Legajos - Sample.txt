@@ -1,0 +1,9 @@
+SELECT * FROM USUARIO u with(nolock)
+inner join Permiso p with(nolock) on p.id_Usuario = u.id_Usuario
+inner join Empresa e with(nolock) on e.id_Empresa = p.id_Empresa
+inner join Rol r with(nolock) on r.id_rol = p.id_rol
+inner join Rol_Proceso_Atributo rpa with(nolock) on rpa.id_rol = r.id_rol
+inner join Proceso_Atributo pa with(nolock) on pa.id_proceso = rpa.id_proceso and pa.id_atributo = rpa.id_atributo
+inner join Proceso proc with(nolock) on proc.id_proceso = pa.id_proceso
+inner join Atributo attr with(nolock) on attr.id_atributo = pa.id_atributo
+WHERE e.cod_empresa = 'Sample' AND rol.Cod_Rol = 'supervisor' AND p.cod_proceso = 'Legajos'
