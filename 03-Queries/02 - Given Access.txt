@@ -1,0 +1,4 @@
+UPDATE Permiso
+SET id_rol = (SELECT id_rol FROM Rol with(nolock) WHERE cod_rol = 'supervisor')
+WHERE id_Usuario = (SELECT id_Usuario FROM Usuario with(nolock) WHERE Cod_usuario = 'Juan')
+  AND id_Empresa = (SELECT id_Empresa FROM Empresa with(nolock) WHERE cod_empresa = 'Sample');

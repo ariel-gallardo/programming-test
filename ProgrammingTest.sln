@@ -5,7 +5,13 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Factorial", "01-Factorial\01-Factorial.csproj", "{B96EAB7F-8268-4980-A3D0-FAC181F39A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Vector-Order", "02-Vector-Order\02-Vector-Order.csproj", "{90FC3E8B-D14E-439C-ABC1-C91DAB125133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Vector-Order", "02-Vector-Order\02-Vector-Order.csproj", "{90FC3E8B-D14E-439C-ABC1-C91DAB125133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Queries", "03-Queries", "{E3FD3254-0827-4EA0-8FA6-2C28B9B0D843}"
+	ProjectSection(SolutionItems) = preProject
+		03-Queries\01 - Alta - Legajos - Sample.txt = 03-Queries\01 - Alta - Legajos - Sample.txt
+		03-Queries\02 - Given Access.txt = 03-Queries\02 - Given Access.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
