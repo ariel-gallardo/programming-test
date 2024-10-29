@@ -15,3 +15,5 @@ Bonus point if you can make it recursive.
 - 3) Given this diagram, write SQL sentences to:
  
 - 4) For the next piece of code, could you detect any bug? Or suggest any improvement (legibility, performance, etc)?
+
+- 5) What does this function do? What name would you suggest for the function?

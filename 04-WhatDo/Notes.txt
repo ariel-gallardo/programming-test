@@ -1,0 +1,15 @@
+
+public static void BlaBla(String[] args) {
+	int numbers[] = new int[]{32,43,53,54,32,65,63,98,43,23};
+	int A = numbers[0];
+	int B = numbers[0];
+	for(int i=1; i< numbers.length; i++)
+	{
+		if(numbers[i] > A) A = numbers[i];
+		else if (numbers[i] < B)
+			B = numbers[i];
+		}
+		System.out.println("A is : " + A);
+		System.out.println("B is : " + B);
+	}
+}Para empezar veo que toma los dos numeros del primer elemento del arrayrecorre el array pero desde una posicion > 0 entonces va a tirar una excepcion al intentar ingresar a numbers[i] en un momentopero basicamente lo que hace es intercalar los numeros si el actual es mas grande que a entonceslo almacena si no si es mas chico lo toma como Bentonces muestra los numeros mas chicos o mas grandelo llamaria como CheckMinorOrMajor, lo veria mas detenidamente pero me quedo sin tiempo ^^
