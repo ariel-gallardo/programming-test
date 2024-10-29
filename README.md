@@ -9,3 +9,5 @@ Remember:
 factorial of 3 = 3 * 2 * 1
 factorial of 5 = 5 * 4 * 3 * 2 * 1
 Bonus point if you can make it recursive.
+
+- 2) Write a function that order a vector of integers (without using Sort)
