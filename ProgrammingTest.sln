@@ -13,6 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Queries", "03-Queries", 
 		03-Queries\02 - Given Access.txt = 03-Queries\02 - Given Access.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-PieceCode", "04-PieceCode", "{81BD5307-BD4F-4C11-869F-6A719D38C477}"
+	ProjectSection(SolutionItems) = preProject
+		04-PieceCode\Notes.txt = 04-PieceCode\Notes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-WhatDo", "05-WhatDo", "{18330DC4-2CC1-407B-9E18-481CB36C768A}"
+	ProjectSection(SolutionItems) = preProject
+		05-WhatDo\Notes.txt = 05-WhatDo\Notes.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{A60E512E-312C-4386-9F81-58E3DF35BCC4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
